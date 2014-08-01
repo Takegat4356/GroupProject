@@ -32,7 +32,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.PrepTime)
+            @Html.DisplayFor(model => model.PrepTime) minutes
         </dd>
 
         <dt>
@@ -40,7 +40,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.CookTime)
+            @Html.DisplayFor(model => model.CookTime) minutes
         </dd>
 
         <dt>
@@ -73,7 +73,7 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
             @Html.ActionLink("Back to List", "Index")
         </div>
     }

@@ -199,8 +199,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\cake.jpg" />
     <Content Include="Images\fruitsandveggies.jpg" />
-    <Content Include="Images\meat.png" />
+    <Content Include="Images\meats.png" />
     <Content Include="Images\potatoes.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

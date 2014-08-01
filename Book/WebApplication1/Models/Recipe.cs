@@ -11,16 +11,22 @@ namespace WebApplication1.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Recipe
     {
         public int ID { get; set; }
         public string Name { get; set; }
         public string Nationality { get; set; }
+        [Display(Name="Preparation Time (minutes)")]
         public Nullable<int> PrepTime { get; set; }
+        [Display(Name="Cook Time (minutes)")]
         public Nullable<int> CookTime { get; set; }
+        [Display(Name="Number Served")]
         public Nullable<int> NbrOfPeople { get; set; }
+        [Display(Name="Number of Steps")]
         public Nullable<int> NbrOfSteps { get; set; }
+        [Display(Name="Steps/Ingredients")]
         public string Ingredients { get; set; }
     }
 }

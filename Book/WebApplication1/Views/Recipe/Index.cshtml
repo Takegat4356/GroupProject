@@ -31,39 +31,39 @@
     </tr>
      <tr>
             <th>
-                @*<span class="label label-info" >Name</span>*@
-                <button class="btn btn-info btn-sm">Name</button>
-                @*@Html.DisplayNameFor(model => model.Name)*@
+                @*<span class="label label-info" >Name</span>
+                <button class="btn btn-info btn-sm">Name</button>*@
+                @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
                 @*<span class="label label-success">Nationality</span>*@
-                <button class="btn btn-success btn-sm">Nationality</button>
-                @*@Html.DisplayNameFor(model => model.Nationality)*@
+                @*<button class="btn btn-success btn-sm">Nationality</button>*@
+                @Html.DisplayNameFor(model => model.Nationality)
             </th>
             <th>
                 @*<span class="label label-warning">Preparation Time</span>*@
-                <button class="btn btn-warning btn-sm">Preparation Time</button>
-                @*@Html.DisplayNameFor(model => model.PrepTime)*@
+                @*<button class="btn btn-warning btn-sm">Preparation Time</button>*@
+                @Html.DisplayNameFor(model => model.PrepTime)
             </th>
             <th>
                 @*<span class="label label-danger">Cook Time</span>*@
-                <button class="btn btn-danger btn-sm">Cook Time</button>
-                @*@Html.DisplayNameFor(model => model.CookTime)*@
+                @*<button class="btn btn-danger btn-sm">Cook Time</button>*@
+                @Html.DisplayNameFor(model => model.CookTime)
             </th>
             <th>
                 @*<span class="label label-info">Number Of People</span>*@
-                <button class="btn btn-info btn-sm">Number of People</button>
-                @*@Html.DisplayNameFor(model => model.NbrOfPeople)*@
+                @*<button class="btn btn-info btn-sm">Number of People</button>*@
+                @Html.DisplayNameFor(model => model.NbrOfPeople)
             </th>
             <th>
                 @*<span class="label label-success">Number Of Steps</span>*@
-                <button class="btn btn-success btn-sm">Number of Steps</button>
-                @*@Html.DisplayNameFor(model => model.NbrOfSteps)*@
+                @*<button class="btn btn-success btn-sm">Number of Steps</button>@*@
+                @Html.DisplayNameFor(model => model.NbrOfSteps)
             </th>
             <th>
-                @*<span class="label label-warning">Ingredients</span>*@
-                <button class="btn btn-warning btn-sm">Ingredients</button>
-                @*@Html.DisplayNameFor(model => model.Ingredients)*@
+                @*<span class="label label-warning">Ingredients</span>
+                @*<button class="btn btn-warning btn-sm">Ingredients</button>*@
+                @Html.DisplayNameFor(model => model.Ingredients)
             </th>
             <th></th>
         </tr>
@@ -78,10 +78,10 @@
                     @Html.DisplayFor(modelItem => item.Nationality)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.PrepTime)
+                    @Html.DisplayFor(modelItem => item.PrepTime) minutes
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.CookTime)
+                    @Html.DisplayFor(modelItem => item.CookTime) minutes
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.NbrOfPeople)
